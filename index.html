@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TRAVELWINGS</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Travelwings</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ACERDA DE</a></li>
+        <li><a href="#tour">VIAJES</a></li>
+        <li><a href="#package">PAQUETES</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+        <li><a href="#">RESERVAR VIAJE</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">RESERVAR VIAJE</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>ELEVA TU VIAJE</p>
+          <h1>¡Experimenta la magia del vuelo!</h1>
+          <div class="header__btns">
+            <button class="btn">Reserva tu viaje ahora</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Destinos populares</h2>
+      <p class="section__description">
+        Descubra los destinos más queridos en todo el mundo
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="destination-1.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Tradición y futurismo</h4>
+              <p>New York City, USA</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="destination-2.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>La ciudad de las Luces</h4>
+              <p>Paris, France</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="destination-3.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Isla de los Dioses</h4>
+              <p>Bali, Indonesia</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">¡Viaje al cielo simplificado!</h2>
+      <p class="section__description">
+        Planificación sin esfuerzo para su próxima aventura
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Proceso de reserva sin problemas</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Reservas fáciles, a un clic de distancia</h4>
+            <p>
+              Desde vuelos y alojamiento hasta actividades y traslados,
+              todo lo que necesitas está disponible a tu alcance, haciendo que viajar
+              planificar sin esfuerzo.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Itinerarios a medida</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Planes personalizados solo para ti</h4>
+            <p>
+              Disfrute de planes de viaje personalizados diseñados para satisfacer sus preferencias
+              e intereses. Ya sea que busques aventura o inmersión cultural,
+              Nuestros itinerarios personalizados garantizan que su viaje sea exclusivamente suyo.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Perspectivas locales de expertos</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Consejos y recomendaciones de expertos</h4>
+            <p>
+              Ofrecemos recomendaciones seleccionadas para cenar, hacer turismo y
+              Joyas escondidas, para que puedas experimentar cada destino como un local.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>
+          DESATA LA PASIÓN POR LOS VIAJES CON TRAVELWINGS</h4>
+        <p>
+          Embárcate en un viaje como ningún otro con Skywings, donde tu viaje
+          los sueños cobran vida. Nuestra misión es inspirar y facilitar su
+          aventuras, ya sea que busques la energía vibrante de la bulliciosa
+          paisajes urbanos, la serena belleza de playas vírgenes o las cautivadoras
+          Historia de monumentos antiguos. En Skywings, ofrecemos servicios seleccionados por expertos.
+          destinos e itinerarios personalizados, asegurando que cada viaje sea
+          adaptado a sus preferencias únicas. Descubre gemas ocultas, sumérgete
+          sumergirse en diversas culturas y crear recuerdos inolvidables que
+          durará toda la vida.
+        </p>
+        <p>
+          Con Travelwings como tu mejor compañero de viaje, explora las maravillas
+          del mundo nunca ha sido tan fácil. Nuestros consejos internos y locales.
+          Las ideas le brindan las herramientas para navegar nuevos lugares con confianza y
+          excitación. Desde el momento que empiezas a planificar hasta el día de tu regreso
+          hogar, estamos dedicados a hacer que su experiencia de viaje sea perfecta y
+          enriquecedor.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Reserve un vuelo ahora
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>10+</h4>
+        <p>Años de experiencia</p>
+      </div>
+      <div class="banner__card">
+        <h4>12K</h4>
+        <p>Clientes contentos</p>
+      </div>
+      <div class="banner__card">
+        <h4>4.8</h4>
+        <p>Calificaciones generales</p>
+      </div>
+    </section>
+
+    <section class="section__container discover__container">
+      <h2 class="section__header">Descubre el mundo desde arriba</h2>
+      <p class="section__description">
+        Experimente vistas impresionantes y perspectivas únicas
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-camera-lens-line"></i></span>
+          <h4>Paisajes urbanos aéreos</h4>
+          <p>
+            Sea testigo de las maravillas arquitectónicas y las bulliciosas calles de
+            vista de pájaro, ofreciendo una perspectiva única.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-ship-line"></i></span>
+          <h4>Maravillas costeras</h4>
+          <p>
+            Vuela sobre costas vírgenes y aguas turquesas, revelando lugares escondidos.
+            calas y vibrantes arrecifes de coral.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-landscape-line"></i></span>
+          <h4>Monumentos históricos</h4>
+          <p>
+            Observe la grandeza de los castillos antiguos y otros sitios importantes.
+            de una manera que los tours terrestres no pueden ofrecer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <h2 class="section__header">Amada por más de mil viajeros</h2>
+      <p class="section__description">
+        Descubra las historias de pasión por los viajes y recuerdos preciados a través del
+        ojos de nuestros valiosos clientes.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Travelwings ha transformado completamente mi experiencia de viaje. De
+                  encontrar gemas escondidas en ciudades bulliciosas y descubrir lugares tranquilos
+                  se retira fuera de los caminos trillados, cada detalle fue cuidadosamente
+                  organizado. No puedo recomendar Skywings lo suficiente a cualquiera que busque
+                  para mejorar su experiencia de viaje!
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="client-1.jpg" alt="client" />
+                <div>
+                  <h4>John Adams</h4>
+                  <h5>Travel Blogger</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Mi reciente aventura con Travelwings fue nada menos que
+                  espectacular. Los itinerarios personalizados y recomendaciones.
+                  me proporcionaron y me llevaron a lugares extraordinarios que
+                  Nunca lo he encontrado por mi cuenta. Ya estoy planeando mi próximo
+                  ¡aventura con ellos!
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="client-2.jpg" alt="client" />
+                <div>
+                  <h4>Emily Thompson</h4>
+                  <h5>Adventure Enthusiast</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Travelwings ofreció una experiencia transformadora para mi investigación
+                  en hitos históricos. Las perspectivas aéreas únicas y
+                  proporcionó un nuevo nivel de apreciación y conocimiento de la
+                  Sitios que estudié. Recomiendo ampliamente sus servicios a mis compañeros.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="client-3.jpg" alt="client" />
+                <div>
+                  <h4>Sarah Lee</h4>
+                  <h5>Cultural Historian</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Encontrar un equilibrio entre el trabajo y los viajes puede ser un desafío,
+                  pero Travelwings lo hizo sin esfuerzo. Su planificación eficiente y
+                  excelentes recomendaciones me ayudaron a maximizar mi tiempo de inactividad y
+                  disfrutar cada momento de mi viaje. Espero trabajar con
+                  volver a consultarlos en futuros viajes.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="client-4.jpg" alt="client" />
+                <div>
+                  <h4>David Patel</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Skywings</a>
+          </div>
+          <p>
+            Explora el mundo con facilidad y emoción a través de nuestro completo
+            plataforma de viaje. Su viaje comienza aquí, donde una planificación perfecta
+            cumple con experiencias inolvidables.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Hoteles</a></li>
+            <li><a href="#">Cruceros</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contactanos</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +54 1137019762
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> dlotitoar@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Buenos Aires, Argentina
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Suscribete</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Suscribete</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 LotitoD. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
